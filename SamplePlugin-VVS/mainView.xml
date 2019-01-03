@@ -4,8 +4,7 @@
     
     <page label="Buttons and Text">
       <control progid="DecalControls.FixedLayout" clipped="">
-        <control progid="DecalControls.PushButton" name="UseSelectedItem" left="5" top="190" width="90" height="20" text="UseSelectedItem" />
-        
+        <control progid="DecalControls.PushButton" name="UseSelectedItem" left="5" top="190" width="90" height="20" text="UseSelectedItem" />        
         <control progid="DecalControls.PushButton" name="ToggleAttack" left="5" top="220" width="90" height="20" text="Toggle Attack" />
         <control progid="DecalControls.PushButton" name="DoesNothing" left="105" top="190" width="90" height="20" text="Does Nothing" />
       </control>

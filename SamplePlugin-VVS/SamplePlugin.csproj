@@ -57,6 +57,13 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\Decal.Adapter.dll" />
+    <Content Include="libs\Decal.FileService.dll" />
+    <Content Include="libs\Decal.Interop.Core.DLL" />
+    <Content Include="libs\VirindiViewService.dll" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

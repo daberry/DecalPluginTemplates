@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Decal.Adapter;
 using Decal.Adapter.Wrappers;
 using MyClasses.MetaViewWrappers;
