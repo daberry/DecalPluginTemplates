@@ -47,7 +47,7 @@ namespace SamplePluginVVS
 			{
 				// This initializes our static Globals class with references to the key objects your plugin will use, Host and Core.
 				// The OOP way would be to pass Host and Core to your objects, but this is easier.
-				Globals.Init("SamplePluginVVS", Host, Core);
+				Globals.Init("DimSamplePluginVVS", Host, Core);
 
                 //Initialize the view.
                 MVWireupHelper.WireupStart(this, Host);
@@ -98,7 +98,6 @@ namespace SamplePluginVVS
 			catch (Exception ex) { Util.LogError(ex); }
 		}
 
-
 		// Note that there are several ways to latch on to decals events.
 		// You can use the BaseEvent attribute, or you can latch on to the same event as shown in CharacterFilter_LoginComplete, above.
 		// The BaseEvent method will only work in this class as it is derived from PluginBase. You will need to use the += and -= method in your other objects.
@@ -117,9 +116,6 @@ namespace SamplePluginVVS
 		void WorldFilter_ChangeObject2(object sender, ChangeObjectEventArgs e)
 		{
 		}
-
-
-
 
 		[MVControlEvent("UseSelectedItem", "Click")]
 		void UseSelectedItem_Click(object sender, MVControlEventArgs e)
@@ -164,10 +160,6 @@ namespace SamplePluginVVS
 			}
 			catch (Exception ex) { Util.LogError(ex); }
 		}
-
-
-
-
 
 		[MVControlReference("SampleList")]
 		private IList SampleList = null;
