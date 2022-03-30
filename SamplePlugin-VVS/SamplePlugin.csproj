@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Decal.Adapter">
-      <HintPath>C:\Games\Decal 3.0\Decal.Adapter.dll</HintPath>
+    <Reference Include="Decal.Adapter, Version=2.9.7.5, Culture=neutral, PublicKeyToken=bd1c8ce002ce221e, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Decal 3.0\Decal.Adapter.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -57,6 +58,13 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\Decal.Adapter.dll" />
+    <Content Include="libs\Decal.FileService.dll" />
+    <Content Include="libs\Decal.Interop.Core.DLL" />
+    <Content Include="libs\VirindiViewService.dll" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
